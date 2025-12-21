@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="port-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello World!</title>
+</head>
+<body>
+   <main>
+    <h1> Um guia de estudos sobre <br><span class="nome-HTML">HTML</span> e <span class="nome-CSS">CSS</span></h1>
+    <p class="descrição"> Estudo Técnico Full Stack a 2 meses na instituição Senac Largo Treze e se for para comparar o conhecimento que eu tinha em desenvolver websites no inicio do curso para hoje, é algo impressionante! Tive a ideia de criar esse website para me ajudar nos meus estudos. Não é algo muito desenvolvido (por enquanto), mas colocar o meu conhecimento em prática é a melhor forma de me tornar uma Super Dev :)</p>
+    </main>
+    <section>
+        <h2> Começando pelo fundamental: <span>HTML</span> (HyperText Markup Language)</h2>
+        <ul>
+        <li>Você sabe o significado da sigla HTML? É Linguagem de Marcação de Hypertexto!</li>
+        <li>Lembre-se sempre que HTML não é uma linguagem de programação, e sim de marcação.</li>
+       <li>O HTML é mais importante do que muitas pessoas pensam. Ele é responsável por fazer toda a parte estrutural do web site, sem ele, não existiria uma forma de escrever um website!</li>
+        </ul>
+        <h3>Agora que você já sabe o que significa o HTML, podemos começar a ver as tags usadas e como elas funcionam!</h3>
+        <h3>Vamos começar com Títulos e Paragráfos:</h3>
+        <p>As tags utilizadas para títulos são de <strong>h1</strong> até o <strong>h6</strong> e funcionam em ordem decrecente, sendo h1 a maior fonte de títulos e h6 a menor. É importante você ter <mark>somente uma tag h1 no seu website</mark>, pois ela é usada para definir o título principal, as outras tags são usadas como subtítulo. Você pode obsevar isso nesse mesmo site, o título principal "Um guia de estudos sobre HTML e CSS" foi feito com a tag h1, enquando o "Começando pelo fundamental: HTML (HyperText Markup Language)" foi feito com o h2, o terceiro foi feito com o h3 e o outro com o h4!</p>
+        <div class="imagem-tag">
+            <figure>
+        <img src="imagens/Captura de tela 2025-12-17 163828.png" alt="foto de uma tag h1" class="tag-h1">
+        <figcaption>Utilizando a tag h1</figcaption>
+        </figure>
+
+            <figure>
+        <img src="imagens/Captura de tela 2025-12-17 164039.png" alt="foto de uma tag h2" class="tag-h2">
+        <figcaption>Utilizando a tag h2</figcaption>
+        </figure>
+
+            <figure>
+        <img src="imagens/Captura de tela 2025-12-17 164116.png" alt="foto de uma tag h3" class="tag-h3">
+        <figcaption>Utilizando a tag h3</figcaption>
+        </figure>
+        </div>
+        <p>Já o parágrafo tem uma única tag e é utilizada para textos comuns!</p>
+            <div class="imagem-tag">
+                <figure>
+                    <img src="imagens/Captura de tela 2025-12-17 235439.png" alt="foto de uma tag p" class="tag-p">
+                    <figcaption>Utilizando a tag p</figcaption>
+                </figure>
+            </div>
+            <p>Como você pode ver, no texto assima foi utilizado a tag p, assim como nesse texto que você está lendo nesse exato momento. É importante que você saiba como como utilizar essas tags para deixar o seu website visualemnte organizado e bem trabalhado.</p>
+    </section>
+    <section>
+    <h3>Okay, podemos ir para o próximo? Vamos falar sobre listas!</h3>
+    <p>Listas são bem simples de se usar, e vou tentar explicar de uma forma bem prática.</p>
+        <br>Existem dois tipos de listas: A ordernada e a <strong>não</strong> ordernada."Tá, mas qual a diferença?" vocês me perguntam... A lista ordernada é formada numericamente, o primeiro item da lista será 1, o segundo será 2 e assim por diante. Já a não ordernada é formada pelo caractere "disc".</p>
+        <div class="lista">
+ <ol>
+    <li>Este é o primeiro item da lista</li>
+    <li>Este é o segundo item da lista</li>
+    <li>Este é o terceiro</li>
+    <li>Deu pra entender?</li>
+</ol>
+<ul>
+    <li>Este é o primeiro item da lista</li>
+    <li>Este é o segundo item da lista</li>
+    <li>Este é o terceiro</li>
+    <li>Acho que deu sim</li>
+</ul>
+        </div>
+        <p>Para criar uma lista ordernada usamos a tag ol, para cada item que colocarmos, vamos usar a tag li dentro da tag ol. Confuso, né? Da uma olhadinha pra entender melhor:</p>
+        <div class="imagem-tag">
+            <img src="imagens/Captura de tela 2025-12-18 003507.png" alt="foto da tag de uma lista ordernada" class="tag-ol">
+            <p class="parágrafo-ol">A tag ol é a que define a lista ordernada, a tag li é a que faz cada item ser uma lista.</p>
+        </div>
+        <p>E assim funciona com a lista não ordernada, mas vamos utilizar a tag ul.</p>
+         <div class="imagem-tag">
+            <img src="imagens/Captura de tela 2025-12-18 003522.png" alt="foto da tag de uma lista não ordernada" class="tag-ul">
+            <p class="parágrafo-ul">A tag ul é a que define a lista não ordernada, a tag li é a que faz cada item ser uma lista.</p>
+        </div>
+    </section>
+    <section>
+        <h3>Agora vamos para um assunto mais complicado, links!</h3>
+        <p>Usar links não é algo complexo, mas é importante você prestar bastante atenção nesse tópico.
+            <br>Link são usados com a tag <span>ancôra (a)</span> e um atributo chamado <span>href.</span> Atributos são como uma palavra chave, ele é usado para vincular informações adicionais na tag, mas vamos falar mais afundo sobre isso depois! Voltando ao assunto, o atributo href é utilizado para adicionar um link que você deseja que ao clicar, o usuário seja direcionado.</p>
+            <h4>Exemplo:
+                <a href="https://github.com/grazlacerd" >Este é um exemplo de um link :3</a>
+            </h4>
+            <p>Nesse link você será direcioando para o meu GitHub! Agora vou mostrar o código utilizado.</p>
+            <div class="imagem-tag">
+                <img src="imagens/Captura de tela 2025-12-18 011923.png" alt="foto da tag de um link"class="tag-ancora">
+            </div>
+    </section>
+</body>
+</html>
